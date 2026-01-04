@@ -1,28 +1,30 @@
 {
-  "name": "my-site",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev -p 3345",
-    "pd": "cd scripts/cmd/parse-data && go run .",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "lucide-react": "^0.554.0",
-    "next": "^16.1.1",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+	"name": "my-site",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3345",
+		"pd": "cd scripts/cmd/parse-data && go run .",
+		"gh": "git log --pretty=format:\"%ad | %h | %s\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"backup": "bash -c 'git archive --format=zip HEAD -o \"../BACKUP/fastfollow-$(date +%F-%H-%M-%S).zip\"'",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"lucide-react": "^0.554.0",
+		"next": "^16.1.1",
+		"react": "19.2.0",
+		"react-dom": "19.2.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "16.0.4",
+		"tailwindcss": "^4",
+		"typescript": "^5"
+	}
 }

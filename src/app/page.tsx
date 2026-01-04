@@ -1,44 +1,69 @@
-import { ArrowRight } from "lucide-react";
-import fs from "fs";
-import path from "path";
-import Flashcard from "@/components/Flashcard";
+'use client';
 
-interface FlashcardData {
-	suuid: string;
-	category: string;
-	front: string;
-	back: string;
-}
-
+import Image from "next/image";
 
 export default function Home() {
-	const filePath = path.join(process.cwd(), "parseddata", "flashcards.json");
-	const fileContent = fs.readFileSync(filePath, "utf8");
-	const flashcards: FlashcardData[] = JSON.parse(fileContent);
-
 	return (
-		<div className="p-8 md:p-12 max-w-4xl">
-			<div className="space-y-12">
-				<div>
-					<h1 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4 tracking-tight">
-						Flashcards
-					</h1>
-					<p className="text-lg text-gray-400 leading-relaxed mb-8">
-						This is a demonstration of the text-parsing feature: change the /data/flashcards.txt file and run the command "npm run pd" to update the flashcards.
-					</p>
+		<main className="relative min-h-screen flex items-center justify-center p-6 overflow-hidden bg-[#0a0a0f]">
+			{/* Dynamic Background Particles */}
+			<div className="absolute inset-0 pointer-events-none">
+				<div className="absolute -top-[10%] left-[10%] w-[70%] h-[60%] bg-indigo-500/15 rounded-full blur-[120px] animate-pulse" />
+				<div className="absolute bottom-[10%] right-[10%] w-[60%] h-[60%] bg-purple-500/10 rounded-full blur-[100px] animate-pulse delay-700" />
+				<div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-pink-500/10 rounded-full blur-[80px] animate-pulse delay-1000" />
+			</div>
 
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-						{flashcards.map((card) => (
-							<Flashcard
-								key={card.suuid}
-								front={card.front}
-								back={card.back}
-								category={card.category}
-							/>
-						))}
+			<div className="relative z-10 max-w-3xl w-full text-center space-y-12 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+				{/* Logo Section */}
+				<div className="flex justify-center">
+					<div className="relative w-48 h-48 md:w-56 md:h-56 animate-[float_4s_ease-in-out_infinite]">
+						<Image
+							src="/images/fff-logo.png"
+							alt="Fast Follow Forum Logo"
+							fill
+							className="object-contain drop-shadow-[0_10px_40px_rgba(99,102,241,0.4)] transition-transform duration-300 hover:scale-105"
+							priority
+						/>
 					</div>
 				</div>
+
+				{/* Content Section */}
+				<div className="space-y-6">
+					<h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-linear-to-br from-indigo-400 via-purple-400 to-pink-400">
+						Fast Follow Forum is a Discord server
+						where we discuss AI tools and trends.
+					</h1>
+
+					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
+						We are developers and business-oriented people using AI to increase efficiency and speed in creating software, products and services. Share what you are using and creating, what works, and what doesn't.
+					</p>
+
+					<p className="text-sm text-slate-500 font-medium">
+						Online • Berlin Based
+					</p>
+				</div>
+
+				{/* CTA Section */}
+				<div className="pt-4">
+					<a
+						href="https://discord.gg/cHH9VjNF"
+						className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-linear-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
+					>
+						<span className="relative uppercase tracking-widest">Join now</span>
+					</a>
+				</div>
 			</div>
-		</div>
+
+			<style jsx global>{`
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        @keyframes shimmer {
+          100% {
+            transform: translateX(100%);
+          }
+        }
+      `}</style>
+		</main>
 	);
 }
