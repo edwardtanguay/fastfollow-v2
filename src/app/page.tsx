@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<main className="relative min-h-screen flex items-center justify-center p-6 overflow-hidden bg-[#0a0a0f]">
+		<main className="relative min-h-screen flex items-center justify-center p-8 md:p-12 lg:p-16 overflow-hidden bg-[#0a0a0f]">
 			{/* Dynamic Background Particles */}
 			<div className="absolute inset-0 pointer-events-none">
 				<div className="absolute -top-[10%] left-[10%] w-[70%] h-[60%] bg-indigo-500/15 rounded-full blur-[120px] animate-pulse" />
@@ -12,9 +12,9 @@ export default function Home() {
 				<div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-pink-500/10 rounded-full blur-[80px] animate-pulse delay-1000" />
 			</div>
 
-			<div className="relative z-10 max-w-3xl w-full text-center space-y-12 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+			<div className="relative z-10 max-w-3xl w-full text-center space-y-12 mt-16 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
 				{/* Logo Section */}
-				<div className="flex justify-center">
+				<div className="flex justify-center pt-16">
 					<div className="relative w-48 h-48 md:w-56 md:h-56 animate-[float_4s_ease-in-out_infinite]">
 						<Image
 							src="/images/fff-logo.png"
@@ -25,16 +25,14 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-
 				{/* Content Section */}
 				<div className="space-y-6">
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-linear-to-br from-indigo-400 via-purple-400 to-pink-400">
-						Fast Follow Forum is a Discord server
-						where we discuss AI tools and trends.
+						We discuss AI
 					</h1>
 
 					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
-						We are developers and business-oriented people using AI to increase efficiency and speed in creating software, products and services. Share what you are using and creating, what works, and what doesn't.
+						We are developers and business-oriented people using AI. Share what you are using and creating, what works, and what doesn't.
 					</p>
 
 					<p className="text-sm text-slate-500 font-medium">
@@ -43,12 +41,12 @@ export default function Home() {
 				</div>
 
 				{/* CTA Section */}
-				<div className="pt-4">
+				<div className="pt-2">
 					<a
 						href="https://discord.gg/cHH9VjNF"
 						className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-linear-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
 					>
-						<span className="relative uppercase tracking-widest">Join now</span>
+						<span className="relative uppercase tracking-widest">Join Discord Server</span>
 					</a>
 				</div>
 			</div>

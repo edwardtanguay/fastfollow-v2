@@ -3,7 +3,7 @@ import { MessageSquare } from "lucide-react";
 export default function About() {
   return (
     <div className="p-8 md:p-12 max-w-4xl">
-      <div className="space-y-8">
+      <div className="space-y-8 mt-16 md:mt-0">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4">
             Fast Follow Forum
