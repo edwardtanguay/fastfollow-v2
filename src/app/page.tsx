@@ -7,14 +7,27 @@ import { ExternalLink } from "lucide-react";
 import topicsData from "../../parseddata/topics.json";
 import { Topic } from "@/types";
 
-const topics = topicsData as Topic[];
+const allTopics = topicsData as Topic[];
+
+function shuffleArray<T>(array: T[]): T[] {
+	const shuffled = [...array];
+	for (let i = shuffled.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+	}
+	return shuffled;
+}
 
 export default function Home() {
+	const [shuffledTopics, setShuffledTopics] = useState<Topic[]>([]);
 	const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
 
 	useEffect(() => {
+		const shuffled = shuffleArray(allTopics);
+		setShuffledTopics(shuffled);
+
 		const interval = setInterval(() => {
-			setCurrentTopicIndex((prev) => (prev + 1) % topics.length);
+			setCurrentTopicIndex((prev) => (prev + 1) % shuffled.length);
 		}, 1000);
 		return () => clearInterval(interval);
 	}, []);
@@ -52,14 +65,14 @@ export default function Home() {
 					</h1>
 
 					<div className="h-12 flex items-center justify-center overflow-hidden">
-						{topics.length > 0 && (
+						{shuffledTopics.length > 0 && (
 							<Link
 								href="/topics"
 								key={currentTopicIndex}
 								className="animate-swoop group flex items-center gap-3 px-6 py-2 rounded-full border border-transparent hover:border-indigo-500/10 hover:bg-indigo-500/5 transition-all duration-300"
 							>
 								<span className="text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide group-hover:text-indigo-400">
-									{topics[currentTopicIndex]?.title}
+									{shuffledTopics[currentTopicIndex]?.title}
 								</span>
 								<ExternalLink className="w-4 h-4 md:w-5 md:h-5 text-indigo-400/40 group-hover:text-indigo-400 transition-colors" />
 							</Link>

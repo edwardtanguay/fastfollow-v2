@@ -13,8 +13,25 @@ Flux AI; https://blackforestlabs.ai/; 4.6; 2026-01-05 19:26:28
 DALL-E 3; https://openai.com/dall-e-3/; 4.5; 2026-01-05 19:26:28
 Zapier; https://zapier.com/; 4.3; 2026-01-05 19:26:28
 Make; https://www.make.com/; 4.4; 2026-01-05 19:26:28
-Pabbly; https://www.pabbly.com/; 3.8; 2026-01-05 19:26:28
-Kajabi; https://kajabi.com/; 4.0; 2026-01-05 19:26:28
-Circle; https://circle.so/; 4.1; 2026-01-05 19:26:28
-Skool; https://www.skool.com/; 4.2; 2026-01-05 19:26:28
 Gemini Web; https://gemini.google.com/; 4.6; 2026-01-05 19:26:28
+v0; https://v0.dev/; 4.9; 2026-01-05 23:50:00
+Bolt; https://bolt.new; 4.8; 2026-01-05 23:50:00
+Zapier MCP; https://mcp.zapier.com; 4.7; 2026-01-05 23:50:00
+n8n; https://n8n.io/; 4.7; 2026-01-05 23:50:00
+Flowise; https://flowiseai.com/; 4.6; 2026-01-05 23:50:00
+Artificial Analysis; https://artificialanalysis.ai; 4.7; 2026-01-05 23:50:00
+LM Studio; https://lmstudio.ai; 4.6; 2026-01-05 23:50:00
+GitHub Copilot Spaces; https://github.com/copilot/spaces; 4.5; 2026-01-05 23:50:00
+Pickaxe; https://pickaxe.co; 4.4; 2026-01-05 23:50:00
+LangDashboard; https://lang-dashboard.vercel.app; 4.3; 2026-01-05 23:50:00
+Emergent; https://app.emergent.sh; 4.2; 2026-01-05 23:50:00
+Kimi K2; https://www.kimi.com; 4.3; 2026-01-05 23:50:00
+DeepSeek; https://chat.deepseek.com; 4.7; 2026-01-05 23:50:00
+Mistral; https://mistral.ai; 4.6; 2026-01-05 23:50:00
+You; https://you.com; 4.2; 2026-01-05 23:50:00
+Hugging Face; https://huggingface.co; 4.8; 2026-01-05 23:50:00
+Ollama; https://ollama.com; 4.7; 2026-01-05 23:50:00
+Google Colab; https://colab.research.google.com; 4.6; 2026-01-05 23:50:00
+PyCharm AI; https://www.jetbrains.com/pycharm/features/ai/; 4.5; 2026-01-05 23:50:00
+Compose AI; https://www.compose.ai; 4.0; 2026-01-05 23:50:00
+Deepfakes Web; https://deepfakesweb.com; 3.5; 2026-01-05 23:50:00
