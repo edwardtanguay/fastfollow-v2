@@ -1,8 +1,29 @@
 'use client';
 
 import Image from "next/image";
+import { useState, useEffect } from "react";
+import topicsData from "../../parseddata/topics.json";
+
+interface Topic {
+	suuid: string;
+	title: string;
+	url: string;
+	rating: number;
+	timestamp: string;
+}
+
+const topics = topicsData as Topic[];
 
 export default function Home() {
+	const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentTopicIndex((prev) => (prev + 1) % topics.length);
+		}, 1000);
+		return () => clearInterval(interval);
+	}, []);
+
 	return (
 		<main className="relative min-h-screen flex items-center justify-center p-8 pb-32 md:pb-16 overflow-hidden bg-gray-950">
 			{/* Dynamic Background Particles */}
@@ -33,9 +54,18 @@ export default function Home() {
 
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-linear-to-br from-indigo-400 via-purple-400 to-pink-400">
 						Discuss AI With Us
-
 					</h1>
 
+					<div className="h-20 flex items-center justify-center overflow-hidden">
+						{topics.length > 0 && (
+							<div
+								key={currentTopicIndex}
+								className="animate-swoop text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide"
+							>
+								{topics[currentTopicIndex]?.title}
+							</div>
+						)}
+					</div>
 				</div>
 
 				{/* CTA Section */}
@@ -64,6 +94,37 @@ export default function Home() {
           100% {
             transform: translateX(100%);
           }
+        }
+        @keyframes swoop {
+          0% { 
+            transform: translateX(-100%) scale(0.8); 
+            opacity: 0; 
+            filter: blur(10px);
+          }
+          15% { 
+            transform: translateX(0) scale(1.1); 
+            opacity: 1; 
+            filter: blur(0);
+          }
+          25%, 75% { 
+            transform: translateX(0) scale(1); 
+            opacity: 1; 
+            filter: blur(0);
+          }
+          85% { 
+            transform: translateX(0) scale(1.1); 
+            opacity: 1; 
+            filter: blur(0);
+          }
+          100% { 
+            transform: translateX(100%) scale(0.8); 
+            opacity: 0; 
+            filter: blur(10px);
+          }
+        }
+        .animate-swoop {
+          animation: swoop 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+          will-change: transform, opacity, filter;
         }
       `}</style>
 		</main>
