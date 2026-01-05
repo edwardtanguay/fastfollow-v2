@@ -25,7 +25,7 @@ export default function Home() {
 	}, []);
 
 	return (
-		<main className="relative min-h-screen flex items-center justify-center p-8 pb-32 md:pb-16 overflow-hidden bg-gray-950">
+		<main className="relative min-h-screen flex items-center justify-center px-8 pt-24 pb-32 md:p-8 md:pb-16 overflow-hidden bg-gray-950">
 			{/* Dynamic Background Particles */}
 			<div className="absolute inset-0 pointer-events-none">
 				<div className="absolute -top-[10%] left-[10%] w-[70%] h-[60%] bg-indigo-500/15 rounded-full blur-[120px] animate-pulse" />
