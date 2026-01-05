@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 import topicsData from "../../parseddata/topics.json";
 import { Topic } from "@/types";
 
@@ -55,9 +56,12 @@ export default function Home() {
 							<Link
 								href="/topics"
 								key={currentTopicIndex}
-								className="animate-swoop text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide hover:text-indigo-400 transition-colors"
+								className="animate-swoop group flex items-center gap-3 px-6 py-2 rounded-full border border-transparent hover:border-indigo-500/10 hover:bg-indigo-500/5 transition-all duration-300"
 							>
-								{topics[currentTopicIndex]?.title}
+								<span className="text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide group-hover:text-indigo-400">
+									{topics[currentTopicIndex]?.title}
+								</span>
+								<ExternalLink className="w-4 h-4 md:w-5 md:h-5 text-indigo-400/40 group-hover:text-indigo-400 transition-colors" />
 							</Link>
 						)}
 					</div>
