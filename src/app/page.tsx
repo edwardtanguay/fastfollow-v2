@@ -56,7 +56,7 @@ export default function Home() {
 						Discuss AI With Us
 					</h1>
 
-					<div className="h-20 flex items-center justify-center overflow-hidden">
+					<div className="h-12 flex items-center justify-center overflow-hidden">
 						{topics.length > 0 && (
 							<div
 								key={currentTopicIndex}
