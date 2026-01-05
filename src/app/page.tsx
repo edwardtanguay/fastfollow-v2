@@ -27,7 +27,7 @@ export default function Home() {
 				</div>
 				{/* Content Section */}
 				<div className="space-y-6">
-					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
+					<p className="text-base md:text-lg text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
 						We are developers and business-oriented people using AI. Share what you are using and creating, what works, and what doesn't.
 					</p>
 
