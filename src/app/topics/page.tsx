@@ -10,7 +10,7 @@ export default function TopicsPage() {
           <div className="absolute -top-24 -left-24 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-700" />
 
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold py-4 -my-4 mb-2 tracking-tight bg-linear-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold py-4 -my-4 mb-2 tracking-tight bg-linear-to-r from-gray-100 via-indigo-300 to-purple-300 bg-clip-text text-transparent leading-tight">
             AI Ecosystem
           </h1>
           <p className="text-xl text-gray-400 leading-relaxed max-w-3xl border-l-2 border-blue-500/30 pl-6">

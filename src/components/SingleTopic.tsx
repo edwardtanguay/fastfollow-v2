@@ -17,16 +17,16 @@ export default function SingleTopic({ topic, index }: SingleTopicProps) {
 			target="_blank"
 			rel="noopener noreferrer"
 			className="group relative flex items-center justify-between p-4 rounded-xl 
-				bg-linear-to-br from-indigo-950/20 via-purple-950/20 to-pink-950/20 border-purple-500/25
-				md:bg-none md:bg-gray-900/40 md:border-gray-800/50 
-				hover:border-blue-500/50 hover:bg-gray-800/60 
+				bg-gray-800/60 border-gray-100/20
+				md:bg-gray-800/40 md:border-gray-100/10 
+				hover:border-purple-500/40 hover:bg-gray-700/60 
 				transition-all duration-300 backdrop-blur-md overflow-hidden"
 			style={{ animationDelay: `${index * 50}ms` }}
 		>
-			{/* Mobile neon layer / Desktop subtle hover layer */}
+			{/* Hint of Neon Purple / Brighter Glow */}
 			<div className="absolute inset-0 
-				bg-linear-to-r from-indigo-600/5 via-purple-600/10 to-pink-600/5 opacity-100
-				md:hidden md:group-hover:block md:bg-linear-to-r md:from-blue-600/0 md:via-blue-600/10 md:to-purple-600/10 md:opacity-100
+				bg-linear-to-r from-purple-500/5 via-purple-500/10 to-transparent opacity-100
+				md:opacity-0 md:group-hover:opacity-100 
 				transition-opacity duration-300" />
 
 			<div className="relative z-10 flex items-center gap-3">
