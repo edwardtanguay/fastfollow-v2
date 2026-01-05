@@ -32,7 +32,9 @@ export default function SingleTopic({ topic, index }: SingleTopicProps) {
 			<div className="relative z-10 flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 group-hover:border-blue-500/40 transition-colors duration-300">
 				<Star className="w-3.5 h-3.5 text-blue-400 fill-blue-400" />
 				<span className="text-sm font-bold text-blue-300">
-					{typeof topic.rating === 'number' && topic.rating > 10 ? 'N/A' : topic.rating}
+					{typeof topic.rating === 'number' && topic.rating > 10
+						? 'N/A'
+						: topic.rating.toFixed(2)}
 				</span>
 			</div>
 		</a>

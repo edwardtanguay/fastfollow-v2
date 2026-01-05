@@ -19,9 +19,11 @@ export default function TopicsPage() {
         </header>
 
         <div className="grid gap-6">
-          {(topics as Topic[]).map((topic, index) => (
-            <SingleTopic key={topic.suuid} topic={topic} index={index} />
-          ))}
+          {(topics as Topic[])
+            .sort((a, b) => b.rating - a.rating)
+            .map((topic, index) => (
+              <SingleTopic key={topic.suuid} topic={topic} index={index} />
+            ))}
         </div>
       </div>
     </div>
