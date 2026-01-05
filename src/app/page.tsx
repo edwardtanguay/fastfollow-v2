@@ -39,18 +39,20 @@ export default function Home() {
 				</div>
 
 				{/* CTA Section */}
-				<div className="pt-2">
-					<a
-						href="https://discord.gg/cHH9VjNF"
-						className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-linear-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
-					>
-						<span className="relative uppercase tracking-widest">Join Discord Server</span>
-					</a>
+				<div className="space-y-6">
+					<div className="pt-2">
+						<a
+							href="https://discord.gg/cHH9VjNF"
+							className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 bg-linear-to-r from-indigo-600 to-purple-600 rounded-xl hover:from-indigo-500 hover:to-purple-500 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)]"
+						>
+							<span className="relative uppercase tracking-widest">Join Discord Server</span>
+						</a>
+					</div>
+
+					<p className="text-sm text-slate-500 font-medium">
+						Online • Berlin Based
+					</p>
 				</div>
-				
-				<p className="text-sm text-slate-500 font-medium">
-					Online • Berlin Based
-				</p>
 			</div>
 
 			<style jsx global>{`
