@@ -16,7 +16,11 @@ export default function SingleTopic({ topic, index }: SingleTopicProps) {
 			href={url}
 			target="_blank"
 			rel="noopener noreferrer"
-			className="group relative flex items-center justify-between p-4 rounded-xl bg-gray-900/40 border border-gray-800/50 hover:border-blue-500/50 hover:bg-gray-800/60 transition-all duration-300 backdrop-blur-md overflow-hidden"
+			className="group relative flex items-center justify-between p-4 rounded-xl 
+				bg-gray-800 border-gray-600 
+				md:bg-gray-900/40 md:border-gray-800/50 
+				hover:border-blue-500/50 hover:bg-gray-800/60 
+				transition-all duration-300 backdrop-blur-md overflow-hidden"
 			style={{ animationDelay: `${index * 50}ms` }}
 		>
 			{/* Subtle hover gradient */}
