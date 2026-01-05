@@ -17,7 +17,7 @@ export default function SingleTopic({ topic, index }: SingleTopicProps) {
 			target="_blank"
 			rel="noopener noreferrer"
 			className="group relative flex items-center justify-between p-4 rounded-xl 
-				bg-linear-to-br from-indigo-900/40 via-purple-900/40 to-pink-900/40 border-purple-500/40
+				bg-linear-to-br from-indigo-950/20 via-purple-950/20 to-pink-950/20 border-purple-500/25
 				md:bg-none md:bg-gray-900/40 md:border-gray-800/50 
 				hover:border-blue-500/50 hover:bg-gray-800/60 
 				transition-all duration-300 backdrop-blur-md overflow-hidden"
@@ -25,7 +25,7 @@ export default function SingleTopic({ topic, index }: SingleTopicProps) {
 		>
 			{/* Mobile neon layer / Desktop subtle hover layer */}
 			<div className="absolute inset-0 
-				bg-linear-to-r from-indigo-600/10 via-purple-600/15 to-pink-600/10 opacity-100
+				bg-linear-to-r from-indigo-600/5 via-purple-600/10 to-pink-600/5 opacity-100
 				md:hidden md:group-hover:block md:bg-linear-to-r md:from-blue-600/0 md:via-blue-600/10 md:to-purple-600/10 md:opacity-100
 				transition-opacity duration-300" />
 
