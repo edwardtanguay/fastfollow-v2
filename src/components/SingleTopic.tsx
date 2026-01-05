@@ -1,14 +1,7 @@
 "use client";
 
 import { ExternalLink, Star, Calendar } from "lucide-react";
-
-interface Topic {
-	suuid: string;
-	title: string;
-	url: string;
-	rating: number;
-	timestamp: string;
-}
+import { Topic } from "@/types";
 
 interface SingleTopicProps {
 	topic: Topic;

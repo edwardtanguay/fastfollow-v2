@@ -1,13 +1,6 @@
 import topics from "../../../parseddata/topics.json";
 import SingleTopic from "@/components/SingleTopic";
-
-interface Topic {
-  suuid: string;
-  title: string;
-  url: string;
-  rating: number;
-  timestamp: string;
-}
+import { Topic } from "@/types";
 
 export default function TopicsPage() {
   return (

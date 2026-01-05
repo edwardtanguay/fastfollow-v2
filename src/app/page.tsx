@@ -3,14 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import topicsData from "../../parseddata/topics.json";
-
-interface Topic {
-	suuid: string;
-	title: string;
-	url: string;
-	rating: number;
-	timestamp: string;
-}
+import { Topic } from "@/types";
 
 const topics = topicsData as Topic[];
 
