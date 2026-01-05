@@ -1,0 +1,20 @@
+Antigravity; https://antigravity.google; 4.98; 2026-01-05 18:18:22
+GitHub MCP Server;https://github.com/github/github-mcp-server 4.91; 2026-01-05 18:19:42
+Notebook LM; https://notebooklm.google/; 4.8; 2026-01-05 19:26:28
+Microsoft Ignite; https://ignite.microsoft.com/; 4.9; 2026-01-05 19:26:28
+Lovable; https://lovable.dev/; 4.2; 2026-01-05 19:26:28
+Claude Code; https://claude.ai/download; 3.2; 2026-01-05 19:26:28
+Trae; https://trae.sh/; 2.1; 2026-01-05 19:26:28
+Windsurf; https://codeium.com/windsurf; 4.8; 2026-01-05 19:26:28
+Gemini Code Assist; https://developers.google.com/gemini-code-assist/docs/overview; 4.7; 2026-01-05 19:26:28
+Cursor; https://www.cursor.com/; 4.9; 2026-01-05 19:26:28
+Replit; https://replit.com/; 4.5; 2026-01-05 19:26:28
+Flux AI; https://blackforestlabs.ai/; 4.6; 2026-01-05 19:26:28
+DALL-E 3; https://openai.com/dall-e-3/; 4.5; 2026-01-05 19:26:28
+Zapier; https://zapier.com/; 4.3; 2026-01-05 19:26:28
+Make; https://www.make.com/; 4.4; 2026-01-05 19:26:28
+Pabbly; https://www.pabbly.com/; 3.8; 2026-01-05 19:26:28
+Kajabi; https://kajabi.com/; 4.0; 2026-01-05 19:26:28
+Circle; https://circle.so/; 4.1; 2026-01-05 19:26:28
+Skool; https://www.skool.com/; 4.2; 2026-01-05 19:26:28
+Gemini Web; https://gemini.google.com/; 4.6; 2026-01-05 19:26:28

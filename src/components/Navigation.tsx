@@ -19,7 +19,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
 	{ label: "Home", href: "/", icon: <Home size={20} /> },
-	{ label: "AI Tools", href: "/tools", icon: <ToolCase size={20} /> },
+	{ label: "Topics", href: "/topics", icon: <ToolCase size={20} /> },
 	{ label: "About", href: "/about", icon: <Info size={20} /> },
 ];
 

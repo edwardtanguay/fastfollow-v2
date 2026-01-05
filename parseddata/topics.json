@@ -1,0 +1,142 @@
+[
+	{
+		"suuid": "KzMoTv",
+		"title": "Antigravity",
+		"url": "https://antigravity.google",
+		"rating": 4.98,
+		"timestamp": "2026-01-05 18:18:22"
+	},
+	{
+		"suuid": "eUtg8s",
+		"title": "GitHub MCP Server",
+		"url": "https://github.com/github/github-mcp-server 4.91",
+		"rating": 2026,
+		"timestamp": ""
+	},
+	{
+		"suuid": "I9Gcjx",
+		"title": "Notebook LM",
+		"url": "https://notebooklm.google/",
+		"rating": 4.8,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "10YTzE",
+		"title": "Microsoft Ignite",
+		"url": "https://ignite.microsoft.com/",
+		"rating": 4.9,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "fGFi6G",
+		"title": "Lovable",
+		"url": "https://lovable.dev/",
+		"rating": 4.2,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "4YGdB6",
+		"title": "Claude Code",
+		"url": "https://claude.ai/download",
+		"rating": 3.2,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "0R5ZdD",
+		"title": "Trae",
+		"url": "https://trae.sh/",
+		"rating": 2.1,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "a9E3px",
+		"title": "Windsurf",
+		"url": "https://codeium.com/windsurf",
+		"rating": 4.8,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "mrg9dR",
+		"title": "Gemini Code Assist",
+		"url": "https://developers.google.com/gemini-code-assist/docs/overview",
+		"rating": 4.7,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "cKjG0Y",
+		"title": "Cursor",
+		"url": "https://www.cursor.com/",
+		"rating": 4.9,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "WuIkJ7",
+		"title": "Replit",
+		"url": "https://replit.com/",
+		"rating": 4.5,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "gEmaaS",
+		"title": "Flux AI",
+		"url": "https://blackforestlabs.ai/",
+		"rating": 4.6,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "Bmfnyp",
+		"title": "DALL-E 3",
+		"url": "https://openai.com/dall-e-3/",
+		"rating": 4.5,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "UbRF86",
+		"title": "Zapier",
+		"url": "https://zapier.com/",
+		"rating": 4.3,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "XZA6Xl",
+		"title": "Make",
+		"url": "https://www.make.com/",
+		"rating": 4.4,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "VN8myH",
+		"title": "Pabbly",
+		"url": "https://www.pabbly.com/",
+		"rating": 3.8,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "1QIV1m",
+		"title": "Kajabi",
+		"url": "https://kajabi.com/",
+		"rating": 4,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "4UYwCF",
+		"title": "Circle",
+		"url": "https://circle.so/",
+		"rating": 4.1,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "cQY6Zo",
+		"title": "Skool",
+		"url": "https://www.skool.com/",
+		"rating": 4.2,
+		"timestamp": "2026-01-05 19:26:28"
+	},
+	{
+		"suuid": "wGIXn0",
+		"title": "Gemini Web",
+		"url": "https://gemini.google.com/",
+		"rating": 4.6,
+		"timestamp": "2026-01-05 19:26:28"
+	}
+]

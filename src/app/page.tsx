@@ -28,7 +28,8 @@ export default function Home() {
 				{/* Content Section */}
 				<div className="space-y-6">
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-linear-to-br from-indigo-400 via-purple-400 to-pink-400">
-						We discuss AI
+						Discuss AI With Us
+
 					</h1>
 
 					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
