@@ -79,7 +79,7 @@ export default function Home() {
 					</div>
 
 					<p className="text-sm text-slate-500 font-medium">
-						We are online and Berlin based
+					See more projects by <a href="https://edwards-projects.vercel.app" target="_blank" rel="noopener noreferrer" className="underline">Edward Tanguay</a>
 					</p>
 				</div>
 			</div>
