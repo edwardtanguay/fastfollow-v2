@@ -36,9 +36,6 @@ export default function Home() {
 						We are developers and business-oriented people using AI. Share what you are using and creating, what works, and what doesn't.
 					</p>
 
-					<p className="text-sm text-slate-500 font-medium">
-						Online • Berlin Based
-					</p>
 				</div>
 
 				{/* CTA Section */}
@@ -50,6 +47,10 @@ export default function Home() {
 						<span className="relative uppercase tracking-widest">Join Discord Server</span>
 					</a>
 				</div>
+				
+				<p className="text-sm text-slate-500 font-medium">
+					Online • Berlin Based
+				</p>
 			</div>
 
 			<style jsx global>{`
