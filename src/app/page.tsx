@@ -12,9 +12,9 @@ export default function Home() {
 				<div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-pink-500/10 rounded-full blur-[80px] animate-pulse delay-1000" />
 			</div>
 
-			<div className="relative z-10 max-w-3xl w-full text-center space-y-12 mt-16 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+			<div className="relative z-10 max-w-3xl w-full text-center space-y-6 mt-16 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
 				{/* Logo Section */}
-				<div className="flex justify-center pt-16">
+				<div className="flex justify-center pt-2">
 					<div className="relative w-48 h-48 md:w-56 md:h-56 animate-[float_4s_ease-in-out_infinite]">
 						<Image
 							src="/images/fff-logo.png"
@@ -27,14 +27,14 @@ export default function Home() {
 				</div>
 				{/* Content Section */}
 				<div className="space-y-6">
+					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
+						We are developers and business-oriented people using AI. Share what you are using and creating, what works, and what doesn't.
+					</p>
+
 					<h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-linear-to-br from-indigo-400 via-purple-400 to-pink-400">
 						Discuss AI With Us
 
 					</h1>
-
-					<p className="text-lg md:text-xl text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
-						We are developers and business-oriented people using AI. Share what you are using and creating, what works, and what doesn't.
-					</p>
 
 				</div>
 
@@ -50,7 +50,7 @@ export default function Home() {
 					</div>
 
 					<p className="text-sm text-slate-500 font-medium">
-						Online • Berlin Based
+						We are online and Berlin based
 					</p>
 				</div>
 			</div>
