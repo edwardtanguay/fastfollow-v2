@@ -30,7 +30,9 @@ export default function Navigation() {
 	const toggleMenu = () => setIsOpen(!isOpen);
 
 	const isActive = (href: string) => {
-		return pathname === href ? "bg-gray-800 text-white" : "text-gray-400";
+		return pathname === href
+			? "bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 shadow-[0_0_10px_rgba(99,102,241,0.1)]"
+			: "text-gray-400 hover:text-gray-200 hover:bg-gray-800/50";
 	};
 
 	return (
@@ -53,8 +55,12 @@ export default function Navigation() {
 
 			{/* Sidebar Navigation */}
 			<aside
-				className={`fixed md:static inset-y-0 right-0 md:left-0 z-40 w-64 bg-gray-900 border-r border-gray-800 transition-transform duration-300 ease-out md:translate-x-0 ${isOpen ? "translate-x-0" : "translate-x-full"
-					} flex flex-col pt-16 md:pt-0`}
+				className={`fixed md:static inset-y-0 right-0 md:left-0 z-40 w-64 
+					bg-gray-950/95 backdrop-blur-xl supports-backdrop-filter:bg-gray-950/80
+					border-l border-white/10 md:border-r md:border-l-0 md:border-gray-800 
+					transition-transform duration-300 ease-out md:translate-x-0 ${isOpen ? "translate-x-0" : "translate-x-full"} 
+					flex flex-col pt-16 md:pt-0
+					before:absolute before:inset-0 before:z-[-1] before:bg-linear-to-b before:from-gray-900 before:via-purple-900/10 before:to-purple-500/30`}
 			>
 				<nav className="flex-1 px-4 py-8 space-y-2">
 					{navItems.map((item) => (
