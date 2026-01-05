@@ -21,7 +21,7 @@ n8n; https://n8n.io/; 4.7; 2026-01-05 23:50:00
 Flowise; https://flowiseai.com/; 4.6; 2026-01-05 23:50:00
 Artificial Analysis; https://artificialanalysis.ai; 4.7; 2026-01-05 23:50:00
 LM Studio; https://lmstudio.ai; 4.6; 2026-01-05 23:50:00
-GitHub Copilot Spaces; https://github.com/copilot/spaces; 4.5; 2026-01-05 23:50:00
+Copilot Spaces; https://github.com/copilot/spaces; 4.5; 2026-01-05 23:50:00
 Pickaxe; https://pickaxe.co; 4.4; 2026-01-05 23:50:00
 LangDashboard; https://lang-dashboard.vercel.app; 4.3; 2026-01-05 23:50:00
 Emergent; https://app.emergent.sh; 4.2; 2026-01-05 23:50:00
