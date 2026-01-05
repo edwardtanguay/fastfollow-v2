@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<main className="relative min-h-screen flex items-center justify-center p-8 md:p-12 lg:p-16 overflow-hidden bg-[#0a0a0f]">
+		<main className="relative min-h-screen flex items-center justify-center p-8 pb-32 md:pb-16 overflow-hidden bg-gray-950">
 			{/* Dynamic Background Particles */}
 			<div className="absolute inset-0 pointer-events-none">
 				<div className="absolute -top-[10%] left-[10%] w-[70%] h-[60%] bg-indigo-500/15 rounded-full blur-[120px] animate-pulse" />
@@ -12,7 +12,7 @@ export default function Home() {
 				<div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-pink-500/10 rounded-full blur-[80px] animate-pulse delay-1000" />
 			</div>
 
-			<div className="relative z-10 max-w-3xl w-full text-center space-y-6 mt-8 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+			<div className="relative z-10 max-w-3xl w-full text-center space-y-6 mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
 				{/* Logo Section */}
 				<div className="flex justify-center pt-2">
 					<div className="relative w-48 h-48 md:w-56 md:h-56 animate-[float_4s_ease-in-out_infinite]">
