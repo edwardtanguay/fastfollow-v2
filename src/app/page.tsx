@@ -12,7 +12,7 @@ export default function Home() {
 				<div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-pink-500/10 rounded-full blur-[80px] animate-pulse delay-1000" />
 			</div>
 
-			<div className="relative z-10 max-w-3xl w-full text-center space-y-6 mt-16 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+			<div className="relative z-10 max-w-3xl w-full text-center space-y-6 mt-8 md:mt-0 animate-in fade-in slide-in-from-bottom-5 duration-1000">
 				{/* Logo Section */}
 				<div className="flex justify-center pt-2">
 					<div className="relative w-48 h-48 md:w-56 md:h-56 animate-[float_4s_ease-in-out_infinite]">
