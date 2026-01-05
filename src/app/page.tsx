@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import topicsData from "../../parseddata/topics.json";
 import { Topic } from "@/types";
 
@@ -51,12 +52,13 @@ export default function Home() {
 
 					<div className="h-12 flex items-center justify-center overflow-hidden">
 						{topics.length > 0 && (
-							<div
+							<Link
+								href="/topics"
 								key={currentTopicIndex}
-								className="animate-swoop text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide"
+								className="animate-swoop text-2xl md:text-4xl font-bold text-indigo-300/80 tracking-wide hover:text-indigo-400 transition-colors"
 							>
 								{topics[currentTopicIndex]?.title}
-							</div>
+							</Link>
 						)}
 					</div>
 				</div>

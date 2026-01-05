@@ -1,7 +1,7 @@
 Antigravity; https://antigravity.google; 4.98; 2026-01-05 18:18:22
 GitHub MCP Server;https://github.com/github/github-mcp-server; 4.91; 2026-01-05 18:19:42
 Notebook LM; https://notebooklm.google/; 4.8; 2026-01-05 19:26:28
-Microsoft Ignite; https://ignite.microsoft.com/; 4.18; 2026-01-05 19:26:28
+Microsoft Ignite; https://ignite.microsoft.com/; 3.88; 2026-01-05 19:26:28
 Lovable; https://lovable.dev/; 4.2; 2026-01-05 19:26:28
 Claude Code; https://claude.ai/download; 4.7; 2026-01-05 19:26:28
 Trae; https://trae.sh/; 2.1; 2026-01-05 19:26:28
